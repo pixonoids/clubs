@@ -11,14 +11,14 @@ This repository contains the homepages ( info pages ) of NITH - clubs.
 
 ### getting started
 
-- fork this repository.
+- fork this repository. (`dev` branch )
 - clone to your local machine -- `git clone https://github.com/your_github_username/clubs.git`
 - Go to your club folder (⚠ do not make any changes to other clubs folders)
   - [Do stuff](#development_guide)
 - Push your changes to your remote
   - `git add .`
   - `git commit -m 'some changes'`
-  - `git push origin main`
+  - `git push origin dev`
 - create a Pull Request
   - pull request will be reviewed and merged in the main repo and deployed live on website
 
@@ -48,7 +48,7 @@ but if u wish to use template - copy paste the contents of `_template/` in `<you
 
 #### Media
 
-- **Images** - you can store media files ( images and gifs) in you club.
+- **Images** - you can store media files ( images and gifs) in you club `assets/` folder.
   > Make sure Images Size is not more that **250KB** - resize images accordingly
 - **Videos** - DO NOT upload videos to repository. Upload your videos to youtube and [Embed the youtube video](https://support.google.com/youtube/answer/171780?hl=en#zippy=) to your page instead.
 
