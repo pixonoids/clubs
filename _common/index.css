@@ -1,0 +1,15 @@
+.card {
+  background: #111;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  margin: 0.4em;
+  padding: 0.5em;
+  border-radius: 0.8em;
+}
+
+.card:hover {
+  background: #222;
+}
