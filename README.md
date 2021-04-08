@@ -11,7 +11,7 @@ This repository contains the homepages ( info pages ) of NITH - clubs.
 
 ### getting started
 
-- fork this repository. (`dev` branch )
+- fork this repository.
 - clone to your local machine -- `git clone https://github.com/your_github_username/clubs.git`
 - Go to your club folder (⚠ do not make any changes to other clubs folders)
   - [Do stuff](#development_guide)
