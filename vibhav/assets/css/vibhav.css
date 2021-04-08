@@ -1,0 +1,39 @@
+.text-center {
+    color: #f7e7c2;
+}
+
+.text-green-400 {
+    border: 1px solid #34d399;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #34d399;
+}
+
+.text-green-400:hover {
+    border: 1.3px solid #34d399;
+    padding: 11px;
+    box-shadow: 3px 3px 16px #34d399;
+}
+
+.akh1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f7e7c2;
+    margin-top: 20px;
+}
+
+.aktitle {
+    font-weight: 600;
+}
+
+.actions {
+    margin-top: 25px;
+}
+
+@media (max-width:700px) {
+  .ak-font{
+    font-size: 2.2rem !important;
+  }
+}
+h1{
+  font-size: 30px;
+}
