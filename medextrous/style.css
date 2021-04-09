@@ -8,6 +8,7 @@
 .project-card{
     position: relative;
     width: 450px;
+    height: 150px;
     background-color: #333333;
     /* padding: 1rem; */
     margin: 1rem;

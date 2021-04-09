@@ -40,3 +40,15 @@
 .opt a:hover{
     opacity: 1;
 }
+
+@media screen and (max-width:700px){
+    .project-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: "image1" "image2" "video" "image3" "image4" "details";
+        grid-template-rows: repeat(5,1fr) 150px;
+        place-items: center;
+    }
+    .details{
+        width: 100%;
+    }
+}
