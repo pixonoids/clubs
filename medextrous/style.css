@@ -1,0 +1,43 @@
+.project-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.project-card{
+    position: relative;
+    width: 450px;
+    height: 150px;
+    background-color: #333333;
+    /* padding: 1rem; */
+    margin: 1rem;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: .8;
+    transition: all .4s;
+}
+.project-card:hover{
+    opacity: 1;
+}
+.project-img img{
+    width: 250px;
+    height: 150px;
+    border-radius: 3px 0 0 3px;
+}
+.project-name{
+    padding: 1rem;
+    text-align: end;
+    font-size: 1rem;
+}
+.project-link{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: .8rem;
+    color: #9f9fe8;
+}
